@@ -1,7 +1,10 @@
 from Review import RandomGame
 Game1 = RandomGame.RandomNumberGame()
-Game1.playgame()
+print(Game1)
+Game1.play_game()
+print(Game1)
 
 Game1 = RandomGame.RandomNumberGame(0,1000)
-
-Game1.playgame()
+print(Game1)
+Game1.play_game()
+print(Game1)
