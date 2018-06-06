@@ -17,7 +17,7 @@ class RandomNumberGame:
         self.setup_game()
 
     def play_game(self):
-        print("Please guess a number between %d and %d, or Q to quit" % (self.lower, self.upper))
+        print("Please guess a number between %d and %d, Q to quit or -2 for a hint" % (self.lower, self.upper))
         self.game_logic()
 
     def setup_game(self):
